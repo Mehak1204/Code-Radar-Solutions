@@ -2,9 +2,8 @@
 int main()
 {
     float num;
-    printf("enter the floating point number:");
     scanf("%f",&num);
-    printf("you entered:%.2f\n",num);
+    printf("you entered:%f",num);
 
     return 0;
 }
