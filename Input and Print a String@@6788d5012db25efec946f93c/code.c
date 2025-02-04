@@ -2,8 +2,9 @@
 int main()
 {
     char word[50];
-    printf("Enter a word: ");
+    printf("You entered: ");
     scanf("%s", word);
-    printf("You entered:%s\n", word);
+    printf("You entered: %s\n", word);
+    
     return 0;
 }
