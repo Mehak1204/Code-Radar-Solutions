@@ -10,11 +10,7 @@ int main()
     printf("Enter your age: ");
     scanf("%d", &age);
     getchar();
-
-    printf("Enter your hobby: ");
     fgets(hobby, sizeof(hobby), stdin);
-    
-    printf("\n--- User Information ---\n");
     printf("Name: %s", name);
     printf("Age: %d\n", age);
     printf("Hobby: %s", hobby);
