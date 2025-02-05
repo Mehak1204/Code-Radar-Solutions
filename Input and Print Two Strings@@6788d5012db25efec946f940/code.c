@@ -4,10 +4,10 @@ int main() {
     char str1[100], str2[100];  // Declare character arrays (strings)
 
     // Taking input
-    printf("Enter first string: ");
+    printf("You entered: ");
     scanf("%s", str1);  // Read first word (no spaces)
 
-    printf("Enter second string: ");
+    printf("You entered: ");
     scanf("%s", str2);  // Read second word (no spaces)
 
     // Printing the input strings
