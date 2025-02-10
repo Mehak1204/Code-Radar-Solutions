@@ -1,15 +1,8 @@
-#include <stdio.h>
-
-int main() {
-    char name[50];
-    int age;
-    char hobby[50];
-    scanf("%49s", name); 
-    scanf("%d", &age);
-    scanf("%49s", hobby); 
-    printf("\nName: %s\n", name);
-    printf("Age: %d\n", age);
-    printf("Favorite Hobby: %s\n", hobby);
-    
+#include<stdio.h>
+int main()
+{
+    char str[100],str2[200],str3[300];
+    scanf("%s %s %s", &str,&str2,7str3);
+    printf("Name: %s\nAge: %s\nHobby: %s", str,str2,str3);
     return 0;
 }
