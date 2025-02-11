@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &a, &b);
     
     // Checking if the numbers are equal
-    if (a && b) {
+    if (a && b > 0) {
         printf("True\n");
     } else {
         printf("False\n");
