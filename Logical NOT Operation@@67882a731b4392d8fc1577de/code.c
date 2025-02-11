@@ -1,18 +1,15 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int a, b;
+    int num;
+    scanf("%d", &num);
     
-    // Taking two space-separated integers as input
-    scanf("%d %d", &a, &b);
-    
-    // Checking if the numbers are equal
-    if (a !< 0 ) {
+    // Check if num is not greater than zero using ! operator
+    if (! (num > 0)) {
         printf("True\n");
     } else {
         printf("False\n");
     }
-    
+
     return 0;
 }
