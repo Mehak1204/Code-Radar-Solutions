@@ -2,9 +2,8 @@
 int main()
 {
    int num1, num2, result;
-   printf("Enter two integers:");
    scanf("%d %d", &num1, &num2);
    result = num1 | num2;
-   printf("Bitwise OR of %d and %d is: %d\n", num1, num2, result);
+   printf("%d\n", num1, num2, result);
    return 0; 
 }
