@@ -5,9 +5,9 @@ int main(){
     if (num % 3 == 0 && num % 5 == 0) {
         printf("Divisible by Both\n", num);
     } else if (num % 3 == 0) {
-        printf("Divisible by 3.\n", num);
+        printf("Divisible by 3\n", num);
     } else if (num % 5 == 0) {
-        printf("Divisible by 5.\n", num);
+        printf("Divisible by 5\n", num);
     } else {
         printf("Not Divisible\n", num);
     }
